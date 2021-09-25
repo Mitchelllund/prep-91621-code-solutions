@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: 55%;
+      padding-top: 10px;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1> The Lord of the Rings </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column"> <img
+          src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg">
+        <h3> The Lord of the Rings: The Fellowship of the Ring</h3>
+        <p> The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful
+          forces are
+          unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins
+          (Elijah
+          Wood), who inherits the Ring and steps into legend. A daunting task lies ahead for Frodo when he becomes the
+          Ringbearer
+          - to destroy the One Ring in the fires of Mount Doom where it was forged.</p>
+      </div>
+      <div class="column"> <img
+          src="https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg">
+        <h3> The Lord of the Rings: The Two Towers</h3>
+        <p> The members of the Fellowship have split into three groups. Frodo and Sam face many perils on their
+          continuing
+          quest to save Middle-earth by destroying the One Ring in the fires of Mount Doom. Merry and Pippin escape from
+          the Orcs
+          and must convince the Ents to join the battle against evil. Aragorn, Gimli and Legolas encounter a
+          mysteriously
+          transformed Gandalf and battle Saruman's army at Helm's Deep.</p>
+      </div>
+      <div class="column"> <img
+          src="https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg">
+        <h3> The Lord of the Rings: The Return of the King</h3>
+        <p> The final confrontation between the forces of good and evil fighting for control of the future of
+          Middle-earth. Frodo
+          and Sam reach Mordor in their quest to destroy the One Ring, while Aragorn leads the forces of good against
+          Sauron's
+          evil army at the ancient city of Minas Tirith.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
